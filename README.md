@@ -1,5 +1,7 @@
 # Project Documentation
 
+![Screenshot](290shots_so.png)
+
 ## Overview
 
 This project is a web application built using the Go programming language. It utilizes various technologies such as HTMX for dynamic HTML updates, Tailwind CSS for styling, and SQLite as the database.
