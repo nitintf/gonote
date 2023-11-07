@@ -26,7 +26,7 @@ func get(name, def string) string {
 var (
 	DatabaseURL = get("DATABASE_URL", "file:gonote.db?cache=shared")
 	Environment = get("GO_ENV", "development")
-	Port        = get("PORT", ":8181")
+	Port        = get("PORT", "8181")
 
 	GlovesExtensionsToWatch = []string{".go", ".html", ".css", ".js"}
 	GlovesExcludePaths      = []string{""}

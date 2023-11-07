@@ -18,7 +18,7 @@ import (
 
 func main() {
 	// The HTTP Server
-	server := &http.Server{Addr: "0.0.0.0" + config.Port, Handler: service()}
+	server := &http.Server{Addr: "0.0.0.0:" + config.Port, Handler: service()}
 
 	// Server run context
 	serverCtx, serverStopCtx := context.WithCancel(context.Background())

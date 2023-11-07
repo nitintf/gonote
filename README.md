@@ -1,6 +1,6 @@
 # Project Documentation
 
-![Screenshot](290shots_so.png)
+![Screenshot](shot.png)
 
 ## Overview
 
